@@ -29,5 +29,17 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
+  },
+  "paths": {
+    "@core": ["app/core"],
+    "@core/_": ["app/core/_"],
+    "@data": ["app/data"],
+    "@data/_": ["app/data/_"],
+    "@routes": ["app/routes"],
+    "@routes/_": ["app/routes/_"],
+    "@shared": ["app/shared"],
+    "@shared/_": ["app/shared/_"],
+    "@env": ["environments"],
+    "@env/_": ["environments/_"]
   }
 }
